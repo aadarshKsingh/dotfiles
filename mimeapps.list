@@ -1,0 +1,44 @@
+[Added Associations]
+text/plain=xed.desktop;
+x-scheme-handler/http=xfce4-web-browser.desktop;userapp-Pulse Browser-PGHV91.desktop;floorp.desktop;
+x-scheme-handler/https=xfce4-web-browser.desktop;userapp-Pulse Browser-PGHV91.desktop;floorp.desktop;
+video/webm=vlc.desktop;
+application/zip=org.gnome.FileRoller.desktop;vscodium.desktop;
+application/pdf=pulse-browser.desktop;
+text/x-c++src=xed.desktop;
+image/png=org.xfce.ristretto.desktop;
+inode/directory=vscodium.desktop;
+video/x-matroska=vlc.desktop;mpv.desktop;
+application/x-zerosize=xed.desktop;
+image/svg+xml=org.xfce.ristretto.desktop;
+image/jpeg=org.xfce.ristretto.desktop;
+x-scheme-handler/tg=userapp-64Gram Desktop-VULDC2.desktop;
+application/x-ms-dos-executable=org.gnome.FileRoller.desktop;wine.desktop;
+application/x-executable=vscodium.desktop;
+audio/x-mpegurl=code-oss.desktop;
+video/mp4=vlc.desktop;mpv.desktop;
+x-scheme-handler/chrome=floorp.desktop;userapp-Pulse Browser-PGHV91.desktop;
+text/html=xed.desktop;floorp.desktop;userapp-Pulse Browser-PGHV91.desktop;
+application/x-extension-htm=floorp.desktop;userapp-Pulse Browser-PGHV91.desktop;
+application/x-extension-html=floorp.desktop;userapp-Pulse Browser-PGHV91.desktop;
+application/x-extension-shtml=floorp.desktop;userapp-Pulse Browser-PGHV91.desktop;
+application/xhtml+xml=floorp.desktop;userapp-Pulse Browser-PGHV91.desktop;
+application/x-extension-xhtml=floorp.desktop;userapp-Pulse Browser-PGHV91.desktop;
+application/x-extension-xht=floorp.desktop;userapp-Pulse Browser-PGHV91.desktop;
+
+[Default Applications]
+x-scheme-handler/http=userapp-Pulse Browser-PGHV91.desktop
+x-scheme-handler/https=userapp-Pulse Browser-PGHV91.desktop
+x-scheme-handler/chrome=userapp-Pulse Browser-PGHV91.desktop
+text/html=userapp-Pulse Browser-PGHV91.desktop
+application/x-extension-htm=userapp-Pulse Browser-PGHV91.desktop
+application/x-extension-html=userapp-Pulse Browser-PGHV91.desktop
+application/x-extension-shtml=userapp-Pulse Browser-PGHV91.desktop
+application/xhtml+xml=userapp-Pulse Browser-PGHV91.desktop
+application/x-extension-xhtml=userapp-Pulse Browser-PGHV91.desktop
+application/x-extension-xht=userapp-Pulse Browser-PGHV91.desktop
+application/pdf=pulse-browser.desktop
+x-scheme-handler/msteams=teams.desktop
+application/x-zerosize=xed.desktop
+x-scheme-handler/tg=userapp-64Gram Desktop-VULDC2.desktop
+application/x-executable=vscodium.desktop
