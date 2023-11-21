@@ -58,8 +58,8 @@ Arc-Dark Color Scheme
     background-color: @base1;
     font-family: UbuntuMono;
     font-size: 14px;
-    border: 1px solid red;
-    border-radius: 10px;
+    border: 2px solid #BD93F9;
+    border-radius: 7px;
 }
 
 /* Every modules */
@@ -189,7 +189,7 @@ Arc-Dark Color Scheme
 }
 
 #workspaces button.focused {
-    border-bottom: 3px solid  red;
+    border-bottom: 3px solid #BD93F9;
     margin-bottom: 1px;
     padding-left:5px;
     padding-right:5px;
