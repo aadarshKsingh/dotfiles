@@ -55,14 +55,15 @@ Arc-Dark Color Scheme
 #waybar {
     background: transparent;
     color: #bebebe;
-    background-color: @base1;
+    /*background-color: @base1;*/
     font-family: UbuntuMono;
     font-size: 14px;
-    border: 2px solid #BD93F9;
-    border-radius: 7px;
+   /* border: 2px solid #BD93F9;
+    border-radius: 7px; */
 }
 
 /* Every modules */
+#custom-launcher,
 #battery,
 #clock,
 #backlight,
@@ -76,8 +77,10 @@ Arc-Dark Color Scheme
 #temperature,
 #tray,
 #idle_inhibitor,
-#cava
-#keyboard-state 
+#cava,
+#keyboard-state, 
+#clock,
+#custom-power,
 #custom-PBPbattery {
     padding:0.5rem 0.6rem;
     margin: 1px 0px;
@@ -91,6 +94,7 @@ Arc-Dark Color Scheme
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    color: black;
 }
 
 #battery.warning {
@@ -115,6 +119,10 @@ Arc-Dark Color Scheme
     border-radius: 10px;
 }
 
+#cpu{
+    color: black;
+}
+
 #cpu.warning {
     color: #FABA5F;
     border-radius:10px;
@@ -130,6 +138,7 @@ Arc-Dark Color Scheme
     animation-iteration-count: infinite;
     animation-direction: alternate;
     border-radius: 10px;
+    color: black;
 }
 
 #memory.warning {
@@ -149,9 +158,13 @@ Arc-Dark Color Scheme
 #mode {
     background: @highlight;
     border-bottom: 3px transparent;
-    color:white;
+    color:black;
     margin-left: 5px;
     padding: 7px;
+}
+
+#network{
+   color: black;
 }
 
 #network.disconnected {
@@ -223,7 +236,7 @@ Arc-Dark Color Scheme
     color: white;
     border-radius: 10px;
     font-weight: bold;
-    padding: 5px 10px 5px 10px;
+    padding: 0px 5px 0px 5px;
 }
 
 #keyboard-state > capslock.unlocked {
@@ -233,4 +246,24 @@ Arc-Dark Color Scheme
 }
 #cava{
    color: red;
+}
+
+#tray{
+   color: black;
+}
+#custom-launcher{
+   color: black;
+}
+
+#pulseaudio{
+   color: black;
+}
+#idle_inhibitor{
+   color: black;
+}
+#clock{
+   color: black;
+}
+#custom-power{
+   color: black;
 }
