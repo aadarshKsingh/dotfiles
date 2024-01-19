@@ -1,0 +1,18 @@
+{
+  "user_name": "DeFalco64",
+  "initial_setup_done": true,
+  "tasks": [
+    {
+      "name": "Fix Volume hotkeys",
+      "done": false
+    },
+    {
+      "name": "Add NM module",
+      "done": false
+    }
+  ],
+  "disable_line": false,
+  "disable_quotes": false,
+  "disable_greeting": false,
+  "time_format_24h": false
+}
