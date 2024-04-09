@@ -6,7 +6,7 @@ selected=$(printf '%s\n' $entries | wofi --conf=$HOME/.config/wofi/config.power 
 
 case $selected in
   logout)
-    swaymsg exit;;
+    exec kill -9 -1;;
   suspend)
     exec systemctl suspend;;
   reboot)

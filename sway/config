@@ -12,6 +12,6 @@ blur_xray enable
 corner_radius 2
 shadows enable
 layer_effects "waybar" blur enable; shadows enable;
-
+exec wl-paste -t text --watch clipman store --no-persist
 # only enable this if every app you use is compatible with wayland
 # xwayland disable

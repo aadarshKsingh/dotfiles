@@ -15,7 +15,7 @@ font pango:Noto Sans Regular 10
 smart_borders on
 
 # Set wallpaper:
-exec swaybg -m fill -i ~/.config/sway/wall.jpg
+exec swaybg -m fill -i ~/.config/sway/lp2.jpg
 
 # Corner Radius:
 corner_radius 50
