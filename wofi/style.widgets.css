@@ -8,7 +8,8 @@ Arc-Dark Color Scheme
 @define-color base3  #4b5160;
 
 *{
-    font-family: UbuntuMono;
+    font-family: Lexend;
+    background-color: transparent;
 }
 
 #window {
@@ -17,13 +18,13 @@ Arc-Dark Color Scheme
 }
 
 #inner-box {
-    background-color: @base2;
+    background-color: transparent;
 }
 
 #outer-box {
     margin: 5px;
     padding:10px;
-    background-color: @base2;
+    background-color: transparent;
     margin-top: -22px;
 }
 
@@ -33,13 +34,14 @@ Arc-Dark Color Scheme
 }
 
 #entry:nth-child(even) {
-    background-color: @base1;
+    background-color: transparent;
 }
 
 #entry {
-    background-color: @base3;
+    background-color: transparent;
 }
 
 #entry:selected {
-    background-color: @highlight;
+    background-color: transparent;
+    border: 1px solid @highlight
 }

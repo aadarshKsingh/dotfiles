@@ -53,14 +53,11 @@ Arc-Dark Color Scheme
 
 /* The whole bar */
 #waybar {
-    background: #494F55;
+    background: transparent;
     color: #bebebe;
-    /*background-color: @base1;*/
-    font-family: UbuntuMono;
+    font-family: Lexend;
     font-size: 14px;
-   /* border: 2px solid #BD93F9;
-    border-radius: 7px; */
-    margin: 10px;
+    margin: 0px;
 }
 
 /* Every modules */
@@ -73,7 +70,6 @@ Arc-Dark Color Scheme
 #memory,
 #mode,
 #custom-weather,
-#network,
 #pulseaudio,
 #temperature,
 #tray,
@@ -95,7 +91,7 @@ Arc-Dark Color Scheme
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    color: black;
+    color: white;
 }
 
 #battery.warning {
@@ -121,7 +117,7 @@ Arc-Dark Color Scheme
 }
 
 #cpu{
-    color: black;
+    color: white;
 }
 
 #cpu.warning {
@@ -139,7 +135,7 @@ Arc-Dark Color Scheme
     animation-iteration-count: infinite;
     animation-direction: alternate;
     border-radius: 10px;
-    color: black;
+    color: white;
 }
 
 #memory.warning {
@@ -159,13 +155,13 @@ Arc-Dark Color Scheme
 #mode {
     background: @highlight;
     border-bottom: 3px transparent;
-    color:black;
+    color:white;
     margin-left: 5px;
     padding: 7px;
 }
 
 #network{
-   color: black;
+   color: white;
 }
 
 #network.disconnected {
@@ -258,21 +254,21 @@ Arc-Dark Color Scheme
 }
 
 #tray{
-   color: black;
+   color: white;
 }
 #custom-launcher{
-   color: black;
+   color: white;
 }
 
 #pulseaudio{
-   color: black;
+   color: white;
 }
 #idle_inhibitor{
-   color: black;
+   color: white;
 }
 #clock{
-   color: black;
+   color: white;
 }
 #custom-power{
-   color: black;
+   color: white;
 }
