@@ -2,23 +2,26 @@
 Arc-Dark Color Scheme
 */
 
-@define-color highlight #5294e2;
+@define-color highlight #e25852;
 @define-color base1  #404552;
 @define-color base2  #40455;
 @define-color base3  #4b5160;
 
 *{
     font-family: Lexend;
-    background-color: transparent;
+    background-color: #1c1c1c;
 }
 
 #window {
     border: 1px solid @highlight;
     margin: 0px 5px 0px 5px;
+    border-radius:20px;
+    backdrop-filter:blur(10px);
 }
 
 #inner-box {
     background-color: transparent;
+    border-radius:20px;
 }
 
 #outer-box {
@@ -35,13 +38,16 @@ Arc-Dark Color Scheme
 
 #entry:nth-child(even) {
     background-color: transparent;
+    border-radius:20px;
 }
 
 #entry {
     background-color: transparent;
+    border-radius:20px;
 }
 
 #entry:selected {
     background-color: transparent;
-    border: 1px solid @highlight
+    border: 1px solid red;
+    border-radius:10px;
 }
