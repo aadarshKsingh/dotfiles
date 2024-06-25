@@ -11,6 +11,7 @@
         "clock"
     ],
     "modules-right": [
+	"keyboard-state",
         "tray",
         "memory",
         "network",
@@ -65,7 +66,7 @@
         "format": "  {:%I:%M %p}"
     },
     "network": {
-        "format-wifi" : "{icon}",
+        "format-wifi" : "{icon} {essid}",
         "format-icons": ["󰤯","󰤟","󰤢","󰤥","󰤨"],
         "format-ethernet": "󰀂",
 	"format-alt" : "󱛇",
@@ -79,8 +80,8 @@
 	"nospacing": 1,
     },
     "pulseaudio": {
-        "format": "{icon}",
-        "format-bluetooth": "󰂰",
+        "format": "{icon} {volume}",
+        "format-bluetooth": "󰂰 {volume}",
         "nospacing": 1,
         "tooltip-format": "Volume : {volume}%",
         "format-muted": "󰝟",
@@ -135,6 +136,18 @@
     "custom/power": {
         "format": "󰤆",
         "tooltip": false,
-        "on-click": "~/.config/rofi/powermenu/type-2/powermenu.sh &"
-    }
+        "on-click": "~/.config/waybar/scripts//power-menu.sh &"
+    },
+    "keyboard-state":{
+        "numlock": false,
+        "capslock": true,
+        "format": {
+          "numlock": "Num {icon}",
+          "capslock": "{icon}",
+        },
+        "format-icons":{
+          "locked": "CAPS",
+          "unlocked": "",
+        }
+    },
 }

@@ -142,3 +142,20 @@ tooltip label {
   padding: 5px;
   background-color: #131822;
 }
+
+#keyboard-state > label.locked {
+    border: 1px solid #e0474c;
+    background-color: #e0474c;
+    color: black;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom:5px;
+    padding:3px;
+}
+
+#keyboard-state > capslock.unlocked {
+    background-color: transparent;
+    border: 0px;
+    margin: 0px 10px 5px 10px;
+}
