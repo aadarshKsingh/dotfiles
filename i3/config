@@ -34,6 +34,8 @@ exec --no-startup-id xrandr --newmode "1920x1080_60.00"  173.00  1920 2048 2248 
 exec --no-statrup-id xrandr --verbose --addmode eDP-1 "1920x1080_60.00"
 exec --no-startup-id xrandr --output eDP-1 --mode "1920x1080_60.00"
 
+# Mock windows users
+exec --no-startup-id activate-linux
 #####################
 # workspace layout: #
 #####################
@@ -396,7 +398,7 @@ exec --no-startup-id ~/.screenlayout/monitor.sh
 
 # set wallpaper
 # exec --no-startup-id sleep 2 && nitrogen --restore
-exec --no-startup-id sleep 1 && feh --bg-fill /home/overlord/Documents/wall.png
+exec --no-startup-id sleep 1 && feh --bg-fill /home/overlord/Pictures/batman.png
 
 # set powersavings for display:
 exec --no-startup-id xset s 480 dpms 600 600 600
