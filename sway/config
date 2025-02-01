@@ -1,0 +1,17 @@
+# Initial Setup 
+# exec ~/set_once.sh
+
+# Config for sway
+#
+# Read `man 5 sway` for a complete reference.
+
+# user config directory
+include $HOME/.config/sway/config.d/*
+blur enable
+blur_xray enable
+corner_radius 2
+shadows enable
+layer_effects "waybar" blur enable; shadows enable;
+exec wl-paste -t text --watch clipman store --no-persist
+# only enable this if every app you use is compatible with wayland
+# xwayland disable
