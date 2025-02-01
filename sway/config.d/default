@@ -218,13 +218,9 @@ bindsym $mod+r mode "resize"
 # App shortcuts
 #
     bindsym $mod+n exec thunar
-    bindsym $mod+o exec pulse-browser
+    bindsym $mod+o exec floorp
 #
 # Screenshots
 #
     bindsym print exec /usr/share/sway/scripts/grimshot --notify save output
     bindsym Shift+print exec ~/.config/sway/scripts/screenshot.sh
-#
-# Keybindings List
-#
-    bindsym $mod+t exec xed ~/.config/sway/cheatsheet
